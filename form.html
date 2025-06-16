@@ -1,0 +1,91 @@
+<!-- 
+ 1 name 
+ 2 email
+ 3 phone 
+ 4 address
+ 5 age 
+ 6 amount 
+ 7 comment
+ 8 gender 
+ 9 picture/pdf/word/
+ 10 date 
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+   
+</head>
+<body> 
+
+   <fieldset>
+     <legend>Customer form </legend>   
+  <!-- fieldset and legend give border and caption -->
+
+   <form  action="index.php"  method="get/post"  enctype="multipart/form-data">
+     <label for="">Name</label>
+     <input name="name" type="text" placeholder="Rashed"> <br> <br>
+
+     <label for="">Email</label>
+     <input name="email" type="email" placeholder="abc@gmail.comment"> <br> <br>
+
+      <!--  drop down  select and option  -->
+
+      <label for="">City</label>      
+      <select name="city" id="">
+         <option value="dhaka">Dhaka</option>
+         <option value="sylhet">Sylhet</option>
+         <option value="barishal">Barishal</option>
+         <option value="rajshahi">Rajshahi</option>
+      </select>  <br> <br>
+
+      <!--  redio type radio  -->
+
+    <label for="">Gender</label>
+    <input type="radio" name="gender" value="male"  >Male 
+    <input type="radio" name="gender" value="female" >Female
+    
+    <br><br>
+       <!--  checkbox  type checkbox  -->
+     <label for="">Select Fruits</label>
+     <input type="checkbox" name="fruits"  value="mango">Mango
+     <input type="checkbox" name="fruits"  value="litchi">Litchi
+     <input type="checkbox" name="fruits"  value="jamrul">Jamrul
+     <input type="checkbox" name="fruits"  value="pinapple">Pinapple
+     <input type="checkbox" name="fruits"  value="iceapple">iceapple
+     
+     <br> <br>
+     <!-- file  textarea -->
+      <label for="">Upload Photo</label>
+       <input type="file" name="photo" id="">
+
+
+
+     <br> <br>
+       <!-- multiline inpu textarea -->
+     <label for="">Comment</label> <br>
+     <textarea name="comment" id=""></textarea>  <br>
+    
+
+
+
+    
+    <br><br>
+     <button type="submit">Submit</button>
+   </form>
+
+   </fieldset>
+
+
+    <script>
+    </script>
+</body>
+</html>
